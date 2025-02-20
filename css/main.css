@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Parisienne&display=swap');
+  /*  font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal; */
+
+*{
+    background-color: #DED5CC;
+}
+header{
+    position: absolute;
+    top: 1.5%; left: 4%; right: 4%;
+    width: 92%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    background-color: #678D58;
+    color: #DED5CC;
+    font-family: "Parisienne", serif;
+    font-size: 23px;
+    border-radius: 14px;
+    text-decoration: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.logo{
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: #678D58;
+    text-align: center;
+    font-size: 23px;
+}
+
+.buttons-main{
+align-items: center;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.buttons-main button{
+width: 80%;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+height: auto;
+background-color: #678D58;
+color: #DED5CC;
+font-family: "Parisienne", serif;
+font-size: 23px;
+border-radius: 14px;
+text-decoration: none;
+border: none;
+padding: 4px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center; /* Centraliza horizontalmente */
+    /*align-items: center; */
+    height: 100vh; /* Garante que a altura ocupa toda a tela */
+    margin: 0;
+}
+  
+a{
+    text-decoration: none;
+    outline: none;
+    color: #DED5CC;
+}
